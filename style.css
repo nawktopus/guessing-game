@@ -1,3 +1,15 @@
 body {
-    background-color: grey;
+    background-color: #bcd;
   }
+#bio {
+    text-align: center;
+  }
+#bio2 {
+    text-align: center;
+}
+#bio3 {
+    text-align: center;
+}  
+h1 {
+    text-align: center;
+}
