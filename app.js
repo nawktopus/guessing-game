@@ -7,6 +7,7 @@ console.log(user);
 if (!user) {
   alert('You need to provide your name');
   user = prompt('What is your name?');
+  alert('Welcome ' + user + ' .' + ' Thank you for stopping by! ');
 }
   else {
   alert('Welcome ' + user + ' .' + ' Thank you for stopping by! ');
@@ -23,12 +24,16 @@ if (!answer) {
   alert('Invalid answer, try again.');
   answer = prompt('Yes or No.')
 }
-else if (answer == 'y' || 'yes') {
-  alert('Yes the sky is blue! ');
+else if (answer === 'y') {
+  alert('Yes, the sky is blue! ');
+}
+else if (answer === 'yes') {
+  alert('Yes, the sky is blue! ');
 }
 else {
   alert('Please try again!');
   answer = prompt('Is the sky blue?');
+  alert('Yes, the sky is blue! ');
 }
 // question 2
 let answer1 = prompt('Is Earth in the Milkyway?'); // String data type
@@ -40,12 +45,16 @@ if (!answer1 ) {
   alert('Invalid answer, try again.');
   answer1 = prompt('Yes or No.')
 }
-else if (answer1 == 'y' || 'yes') {
-  alert('Yes Earth is in the MilkyWay! ');
+else if (answer1 === 'y') {
+  alert('Yes, Earth is in the MilkyWay! ');
+}
+else if (answer1 === 'yes') {
+  alert('Yes, Earth is in the MilkyWay! ');
 }
 else {
   alert('Please try again!');
   answer1 = prompt('Is Earth in the Milkyway?');
+  alert('Yes, Earth is in the MilkyWay! ');
 }
 
 // question 3
@@ -58,12 +67,16 @@ if (!answer2 ) {
   alert('Invalid answer, try again.');
   answer2 = prompt('Yes or No.')
 }
-else if (answer2 == 'y' || 'yes') {
-  alert('Yes Godzilla is large! ');
+else if (answer2 === 'y') {
+  alert('Yes, Godzilla is large! ');
+}
+else if (answer2 === 'yes') {
+  alert('Yes, Godzilla is large! ');
 }
 else {
   alert('Please try again!');
   answer2 = prompt('Is Godzilla large?');
+  alert('Yes, Godzilla is large! ');
 }
 
 // question 4
@@ -76,12 +89,16 @@ if (!answer3 ) {
   alert('Invalid answer, try again.');
   answer3 = prompt('Yes or No.')
 }
-else if (answer3 == 'y' || 'yes') {
-  alert('Yes the Sun is hot! ');
+else if (answer3 === 'y') {
+  alert('Yes, the Sun is hot! ');
+}
+else if (answer3 === 'yes') {
+  alert('Yes, the Sun is hot! ');
 }
 else {
   alert('Please try again!');
   answer3 = prompt('Is the Sun hot?');
+  alert('Yes, the Sun is hot! ');
 }
 
 // question 5
@@ -94,11 +111,15 @@ if (!answer4 ) {
   alert('Invalid answer, try again.');
   answer4 = prompt('Yes or No.')
 }
-else if (answer4 == 'y' || 'yes') {
-  alert('Yes Antarctica is cold! ');
+else if (answer4 === 'y') {
+  alert('Yes, Antarctica is cold! ');
+}
+else if (answer4 === 'yes') {
+  alert('Yes, Antarctica is cold! ');
 }
 else {
   alert('Please try again!');
   answer4 = prompt('Is Antarctica cold?');
+  alert('Yes, Antarctica is cold! ');
 }
 

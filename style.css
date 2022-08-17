@@ -1,16 +1,61 @@
 html {
-    background-color: #bcd;
+  background-color: #bcd;
 }
 #bio {
-    text-align: center;
-    width: 500px;
-    padding: 50px;
-    background-color: teal;
-    text-size-adjust: 150% ;
+  color:mintcream;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }  
-h1 {
-    text-align: center;
+#edu {
+  color:mintcream;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-img {
-  padding: 50px;
+#workExp {
+  color:mintcream;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#goals {
+  color:mintcream;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#end {
+  color:mintcream;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  text-align: center;
 }
