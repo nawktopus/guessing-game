@@ -1,15 +1,16 @@
-body {
+html {
     background-color: #bcd;
-  }
+}
 #bio {
     text-align: center;
-  }
-#bio2 {
-    text-align: center;
-}
-#bio3 {
-    text-align: center;
+    width: 500px;
+    padding: 50px;
+    background-color: teal;
+    text-size-adjust: 150% ;
 }  
 h1 {
     text-align: center;
+}
+img {
+  padding: 50px;
 }
