@@ -2,7 +2,7 @@ html {
   background-color: #bcd;
 }
 #bio {
-  color:mintcream;
+  color:black;
   text-align: center;
   line-break:loose;
   background-color: teal; 
@@ -13,7 +13,7 @@ html {
   width: 50%;
 }  
 #edu {
-  color:mintcream;
+  color:black;
   text-align: center;
   line-break:loose;
   background-color: teal; 
@@ -24,7 +24,7 @@ html {
   width: 50%;
 }
 #workExp {
-  color:mintcream;
+  color:black;
   text-align: center;
   line-break:loose;
   background-color: teal; 
@@ -35,7 +35,7 @@ html {
   width: 50%;
 }
 #goals {
-  color:mintcream;
+  color:black;
   text-align: center;
   line-break:loose;
   background-color: teal; 
@@ -46,7 +46,7 @@ html {
   width: 50%;
 }
 #end {
-  color:mintcream;
+  color:black;
   text-align: center;
   line-break:loose;
   background-color: teal; 
@@ -68,7 +68,7 @@ h1 {
   background-color: midnightblue;
   bottom: 190px;
   position:fixed;
-  width: 98.8%;
+  width: 7.58%; 
 }
 
 ol {
@@ -78,5 +78,54 @@ ol {
   color: white;
   bottom: 0px;
   position: fixed;
-  width: 97.22%;
+  width: 6%;
+}
+
+.list {
+  color:black;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#title {
+  color:black;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-weight: bold;
+  border: 10px solid midnightblue;
+}
+.schools {
+  color:black;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#education {
+  color:black;
+  text-align: center;
+  line-break:loose;
+  background-color: teal; 
+  border: 20px white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-weight: bold;
+  border: 10px solid midnightblue;
 }
