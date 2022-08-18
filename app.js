@@ -129,3 +129,63 @@ if (!user) {
   else {
   alert('Welcome ' + user + ' .' + ' Thank you for stopping by! ');
 }
+
+//Question 6
+
+let answer5 = 24;
+let response = prompt('What number am I thinking of between 1 through 30? ');
+for (let i = 1; i <= 3; i++) {
+  
+  if (response == answer5) {
+    alert('That is correct! ');
+    break;
+    }
+    else if (response == '') {
+      alert('Invalid answer. ');
+      response = prompt('What number am I thinking of between 1 through 30? ');  
+    }
+    else if (response < answer5) {
+      alert('Too low! ');
+      response = prompt('What number am I thinking of between 1 through 30? ');
+    }
+    else if (response > answer5) {
+      alert('Too high! ');
+      response = prompt('What number am I thinking of between 1 through 30? ');
+    }
+    else {
+      alert('Invalid answer. ');
+      response = prompt('What number am I thinking of between 1 through 30? ');
+    }
+    if (i==3) {
+      alert('Nice try, but the correct answer is 24.');
+    }
+
+}  
+//Question 7
+
+let food = ['pizza', 'sushi', 'ramen', 'tacos', ];
+
+for (let i=0; i < 6; i++) {
+  let response1 = prompt('What is my favourite food? ');
+  let fave = false;
+  
+  if(typeof(food[i]) === 'string'); {
+
+    for (let answer7 of food) {
+      if(response1.toLowerCase() === answer7) {
+        alert('You are correct! ');
+        fave = true;
+        break;
+      }
+    } 
+    if (fave == false) {
+          alert('That is wrong!')
+      }
+      else {
+          break;
+          };
+        }
+      }
+       
+
+      alert('My favourite foods are ' + food[0] + ' , ' + food[1] + ' , '+ food[2] + ' , and, ' + food[3]);

@@ -59,3 +59,24 @@ html {
 h1 {
   text-align: center;
 }
+
+#topten {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 2mm solid teal;
+  background-color: midnightblue;
+  bottom: 190px;
+  position:fixed;
+  width: 98.8%;
+}
+
+ol {
+  text-align: center;
+  border: 2mm solid teal;
+  background-color: midnightblue;
+  color: white;
+  bottom: 0px;
+  position: fixed;
+  width: 97.22%;
+}
