@@ -16,11 +16,11 @@ if (!answer) {
 }
 else if (answer === 'y') {
   alert('Yes, I do! ');
-  let count = count++;
+  count++;
 }
 else if (answer === 'yes') {
   alert('Yes, I do! ');
-  let count = count++;
+  count++;
 }
 else {
   alert('Incorrect');
@@ -35,26 +35,18 @@ if (typeof(answer1) === 'string') {
 
 if (!answer1 ) {
   alert('Invalid answer, try again');
-  answer1 = prompt('Yes or No.');
-  if (answer1 == 'no') {
-    alert('Incorrect');
-  }
-  else {
-    alert('Yes, I do! ');
-    let count = count++;
-  }
-    
+  answer1 = prompt('Yes or No.');   
 }
 else if (answer1 === 'y') {
   alert('Yes, I am! ');
-  let count = count++;
+  count++;
 }
 else if (answer1 === 'yes') {
   alert('Yes, I am! ');
-  let count = count++;
+  count++;
 }
 else {
-  alert('Incorrect.')
+  alert('Incorrect.');
 }
 //console.log(answer1 + ", I do like boba!");
 // question 3
@@ -66,24 +58,17 @@ if (typeof(answer2) === 'string') {
 if (!answer2 ) {
   alert('Invalid answer, try again.');
   answer2 = prompt('Yes or No.')
-  if (answer2 == 'no') {
-    alert('Incorrect');
-  }
-  else {
-    alert('Yes, I do! ');
-    let count = count++;
-  }
 }
 else if (answer2 === 'y') {
   alert('Yes, I am! ');
+  count++;
 }
 else if (answer2 === 'yes') {
   alert('Yes, I am! ');
+  count++;
 }
 else {
-  alert('Please try again!');
-  answer2 = prompt('Am I a fan of the Giants?');
-  alert('Yes, I am! ');
+  alert('Incorrect.');
 }
 //console.log(answer2 + ", I am a Giants fan!");
 // question 4
@@ -95,24 +80,17 @@ if (typeof(answer3) === 'string') {
 if (!answer3 ) {
   alert('Invalid answer, try again.');
   answer3 = prompt('Yes or No.');
-  if (answer3 == 'no') {
-    alert('Incorrect');
-  }
-  else {
-    alert('Yes, I do! ');
-    let count = count++;
-  }
 }
 else if (answer3 === 'y') {
   alert('Yes, I do! ');
+  count++;
 }
 else if (answer3 === 'yes') {
   alert('Yes, I do! ');
+  count++;
 }
 else {
-  alert('Please try again!');
-  answer3 = prompt('Do I like dogs?');
-  alert('Yes, I do! ');
+  alert('Incorrect. ');
 }
 //console.log(answer3 + ", I do like dogs!");
 // question 5
@@ -124,24 +102,17 @@ if (typeof(answer4) === 'string') {
 if (!answer4 ) {
   alert('Invalid answer, try again.');
   answer4 = prompt('Yes or No.')
-  if (answer4 == 'no') {
-    alert('Incorrect');
-  }
-  else {
-    alert('Yes, I do! ');
-    let count = count++;
-  }
 }
 else if (answer4 === 'y') {
   alert('Yes, I have! ');
+  count++;
 }
 else if (answer4 === 'yes') {
   alert('Yes, I have! ');
+  count++;
 }
 else {
-  alert('Please try again!');
-  answer4 = prompt('Have I been to Japan?');
-  alert('Yes, I have! ');
+  alert('Incorrect. ');
 }
 //console.log(answer4 + ", I have gone to Japan!");
 
@@ -164,7 +135,7 @@ for (let i = 1; i <= 3; i++) {
   
   if (response == answer5) {
     alert('That is correct! ');
-      let count = count++;
+      count++;
     break;
     }
     else if (response == '') {
@@ -201,7 +172,7 @@ for (let i=0; i < 6; i++) {
     for (let answer7 of food) {
       if(response1.toLowerCase() === answer7) {
         alert('You are correct! ');
-        let count = count++;
+        count++;
         fave = true;
         break;
       }
